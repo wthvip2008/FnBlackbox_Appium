@@ -1,9 +1,12 @@
 desirecaps:
-  platformName: "android"
-  deviceName: "emulator-5554"
-  appPackage: "com.tencent.wework"
-  appActivity: ".launch.LaunchSplashActivity"
+  platformName: "Android"
+  automation: "appium"
+  platformVersion: "6.0.1"
+  deviceName: "127.0.0.1:7555"
+  appPackage: "com.jekunauto.ability.dev"
+  appActivity: "com.jekunauto.ability.activity.login.LoginActivity"
   noReset: "true"
+  adbExecTimeout: 30000
   skipServerInstallation: "true"
   skipDeviceInitialization: "true"
 
