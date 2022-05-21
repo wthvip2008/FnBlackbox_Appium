@@ -116,21 +116,21 @@
                     <tr>
                         <td>
                             <button type="button" class="layui-btn">开始时间</button>
-                            <span class="text-dark">2022-05-18 17:56:11</span>
+                            <span class="text-dark">2022-05-21 15:15:24</span>
                         </td>
                         <td>
                             <button type="button" class="layui-btn">执行时间</button>
-                            <span class="text-dark">0:00:07.505057 s</span>
+                            <span class="text-dark">0:00:16.010692 s</span>
                         </td>
                     </tr>
                     <tr>
                         <td>
                             <button type="button" class="layui-btn">用例总数</button>
-                            <span class="text-dark">2</span>
+                            <span class="text-dark">1</span>
                         </td>
                         <td>
                             <button type="button" class="layui-btn">通过率</button>
-                            <span class="text-dark">0.00%</span>
+                            <span class="text-dark">100.00%</span>
                         </td>
                     </tr>
                     <tr>
@@ -141,9 +141,9 @@
                     </tr>
                     <tr>
                         <td colspan="2" align="center">
-                            <button type="button" class="layui-btn success-btn">成功用例：0</button>
+                            <button type="button" class="layui-btn success-btn">成功用例：1</button>
                             <button type="button" class="layui-btn layui-btn-warm">失败用例：0</button>
-                            <button type="button" class="layui-btn layui-btn-danger">错误用例：2</button>
+                            <button type="button" class="layui-btn layui-btn-danger">错误用例：0</button>
                             <button type="button" class="layui-btn skip-btn">跳过用例：0</button>
                         </td>
                     </tr>
@@ -181,55 +181,31 @@
                 </thead>
 				<tbody>
                 
-    <tr class='errorClass'>
+    <tr class='passClass'>
         <td class="text-center">test01_app_login.TestAppLoginOrder</td>
-        <td class="text-center">2</td>
+        <td class="text-center">1</td>
+        <td class="text-center">1</td>
         <td class="text-center">0</td>
         <td class="text-center">0</td>
-        <td class="text-center">2</td>
         <td class="text-center">0</td>
-        <td class="text-center"><button type="button" class="layui-btn layui-btn-xs" onclick="showClassDetail('c1',2)">详细</button></td>
+        <td class="text-center"><button type="button" class="layui-btn layui-btn-xs" onclick="showClassDetail('c1',1)">详细</button></td>
     </tr>
 
-<tr id='ft1.1' class=''>
-    <td class='errorCase'><div class='testcase'>test01_login_order_0_17718853128</div></td>
+<tr id='pt1.1' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test01_login_order_0_17718853128</div></td>
     <td>
-    <a onfocus='this.blur();' data-toggle="collapse" href="javascript:showTestDetail('div_ft1.1')">
-        错误</a>
+    <a onfocus='this.blur();' data-toggle="collapse" href="javascript:showTestDetail('div_pt1.1')">
+        通过</a>
     </td>
     <td colspan='5'>
-    <div id='div_ft1.1' class="collapse in">
+    <div id='div_pt1.1' class="collapse in">
         <blockquote class="layui-elem-quote">
-            <pre>ft1.1: [0;37;34m17:56:18  "F:\JACK\FnBlackbox_APPIUM\FnBlackbox_Appium\util.py:44"   {'platformName': 'Android', 'automation': 'appium', 'platformVersion': '6.0.1', 'deviceName': '127.0.0.1:7555', 'appPackage': 'com.jekunauto.ability.dev', 'appActivity': 'com.jekunauto.ability.activity.login.LoginActivity', 'noReset': 'true', 'adbExecTimeout': 30000, 'skipServerInstallation': 'true', 'skipDeviceInitialization': 'true'} *********************************************************************** 
- [0m[0;37;34m17:56:18  "F:\JACK\FnBlackbox_APPIUM\FnBlackbox_Appium\test_dir\test01_app_login.py:11"   ``````````````````````````````````````````````` &lt;appium.webdriver.webdriver.WebDriver (session="e944c7f8-144c-46d2-be41-0e0079f3098c")&gt; 
- [0mTraceback (most recent call last):
-  File "C:\Users\jekuuauto\AppData\Local\Programs\Python\Python36\lib\site-packages\parameterized\parameterized.py", line 533, in standalone_func
-    return func(*(a + p.args), **p.kwargs)
-  File "F:\JACK\FnBlackbox_APPIUM\FnBlackbox_Appium\test_dir\test01_app_login.py", line 33, in test01_login_order
-    self.app.page_app_input_username(search_value)
-AttributeError: 'WebDriver' object has no attribute 'page_app_input_username'
-</pre>
-        </blockquote>
-    </div>
-    </td>
-</tr>
-
-<tr id='ft1.2' class=''>
-    <td class='errorCase'><div class='testcase'>test01_login_order_0_17718853128</div></td>
-    <td>
-    <a onfocus='this.blur();' data-toggle="collapse" href="javascript:showTestDetail('div_ft1.2')">
-        错误</a>
-    </td>
-    <td colspan='5'>
-    <div id='div_ft1.2' class="collapse in">
-        <blockquote class="layui-elem-quote">
-            <pre>ft1.2: [0;37;34m17:56:18  "F:\JACK\FnBlackbox_APPIUM\FnBlackbox_Appium\util.py:44"   {'platformName': 'Android', 'automation': 'appium', 'platformVersion': '6.0.1', 'deviceName': '127.0.0.1:7555', 'appPackage': 'com.jekunauto.ability.dev', 'appActivity': 'com.jekunauto.ability.activity.login.LoginActivity', 'noReset': 'true', 'adbExecTimeout': 30000, 'skipServerInstallation': 'true', 'skipDeviceInitialization': 'true'} *********************************************************************** 
- [0m[0;37;34m17:56:18  "F:\JACK\FnBlackbox_APPIUM\FnBlackbox_Appium\test_dir\test01_app_login.py:11"   ``````````````````````````````````````````````` &lt;appium.webdriver.webdriver.WebDriver (session="e944c7f8-144c-46d2-be41-0e0079f3098c")&gt; 
- [0mTraceback (most recent call last):
-  File "F:\JACK\FnBlackbox_APPIUM\FnBlackbox_Appium\test_dir\test01_app_login.py", line 14, in tearDown
-    self.app.stop()
-AttributeError: 'WebDriver' object has no attribute 'stop'
-</pre>
+            <pre>pt1.1: [0;37;34m15:15:30  "F:\JACK\My_project\FnBlackbox_Appium\base\base_pase.py:15"   1111111111111111111 
+ [0m[0;37;34m15:15:31  "F:\JACK\My_project\FnBlackbox_Appium\base\base_pase.py:15"   1111111111111111111 
+ [0m[0;37;34m15:15:33  "F:\JACK\My_project\FnBlackbox_Appium\base\base_pase.py:15"   1111111111111111111 
+ [0m[0;37;34m15:15:34  "F:\JACK\My_project\FnBlackbox_Appium\base\base_pase.py:15"   1111111111111111111 
+ [0m[0;37;34m15:15:36  "F:\JACK\My_project\FnBlackbox_Appium\base\base_pase.py:15"   1111111111111111111 
+ [0m</pre>
         </blockquote>
     </div>
     </td>
@@ -238,10 +214,10 @@ AttributeError: 'WebDriver' object has no attribute 'stop'
                 </tbody>
                 <tr id='total_row' class="text-center active">
                     <td align="right">总计</td>
-                    <td>2</td>
+                    <td>1</td>
+                    <td>1</td>
                     <td>0</td>
                     <td>0</td>
-                    <td>2</td>
                     <td>0</td>
                     <td></td>
                 </tr>
@@ -273,10 +249,10 @@ AttributeError: 'WebDriver' object has no attribute 'stop'
                 name: '测试结果',
                 type: 'gauge',
                 detail: {
-                    formatter: '0.00%'
+                    formatter: '100.00%'
                 },
                 data: [{
-                    value: '0.00',
+                    value: '100.00',
                     name: '用例通过率'
                 }],
                 axisLine: {
@@ -321,7 +297,7 @@ AttributeError: 'WebDriver' object has no attribute 'stop'
                     show: false
                 },
                 data: [{
-                        value: 0,
+                        value: 1,
                         name: '通过'
                     },
                     {
@@ -329,7 +305,7 @@ AttributeError: 'WebDriver' object has no attribute 'stop'
                         name: '失败'
                     },
                     {
-                        value: 2,
+                        value: 0,
                         name: '错误'
                     },
                     {

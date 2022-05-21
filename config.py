@@ -11,3 +11,5 @@ IMG_ABS_PATH = DIR_PATH + os.sep + "img" + os.sep + "{}.png".format(time.strftim
 IMG_REL_PATH = "./img/{}.png".format(time.strftime("%Y%m%d%H%M%S"))
 # json测试数据路径
 DATA_JSON = DIR_PATH + os.sep + "datas" + os.sep + "data_file.json"
+# 集群测试总部后台
+HOST = "http://test.fnhq.jekunauto.net/erp/#/headquarters/login"

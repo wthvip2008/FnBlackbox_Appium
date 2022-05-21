@@ -2,7 +2,7 @@ from time import sleep
 
 from base.base_pase import BasePage
 import page
-
+from nb_logger import logger
 
 class PageAppLogin(BasePage):
 
@@ -25,7 +25,7 @@ class PageAppLogin(BasePage):
     # 获取操作人姓名
     def page_app_get_nickname(self):
         sleep(2)
-        self.base_get_text(page.app_nickname)
+        return self.base_get_text(page.app_nickname)
 
     # 组合业务方法
     def page_app_login(self,username="17718853128",mes='5555'):

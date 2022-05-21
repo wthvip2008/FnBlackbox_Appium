@@ -33,12 +33,12 @@ class BasePage:
         return self.base_find(loc).text
 
     # 截图方法(绝对路径)
-    def base_get_img_abs(self, loc):
+    def base_get_img_abs(self):
         logger.info("正在调用截图方法, 保存位置为{}".format(IMG_ABS_PATH))
         self.driver.get_screenshot_as_file(IMG_ABS_PATH)
 
     # 截图方法二（相对路径)
-    def base_get_img_rel(self, loc):
+    def base_get_img_rel(self):
         logger.info("正在调用截图方法, 保存位置为{}".format(IMG_REL_PATH))
         self.driver.save_screenshot(IMG_REL_PATH)
 
